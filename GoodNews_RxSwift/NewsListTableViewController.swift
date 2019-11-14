@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NewsListTableViewController.swift
 //  GoodNews_RxSwift
 //
 //  Created by DONGGUN LEE on 11/13/19.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class NewsListTableViewController: UITableViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
-
-
 }
-

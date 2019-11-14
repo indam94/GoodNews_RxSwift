@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		2235C21F237CE2010008C67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235C21E237CE2010008C67B /* AppDelegate.swift */; };
 		2235C221237CE2010008C67B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235C220237CE2010008C67B /* SceneDelegate.swift */; };
-		2235C223237CE2010008C67B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235C222237CE2010008C67B /* ViewController.swift */; };
 		2235C226237CE2010008C67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235C224237CE2010008C67B /* Main.storyboard */; };
 		2235C229237CE2010008C67B /* GoodNews_RxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2235C227237CE2010008C67B /* GoodNews_RxSwift.xcdatamodeld */; };
 		2235C22B237CE2020008C67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2235C22A237CE2020008C67B /* Assets.xcassets */; };
 		2235C22E237CE2020008C67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235C22C237CE2020008C67B /* LaunchScreen.storyboard */; };
+		2235C236237CE6F80008C67B /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235C235237CE6F80008C67B /* NewsListTableViewController.swift */; };
+		2235C238237CE9910008C67B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235C237237CE9910008C67B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2235C21B237CE2010008C67B /* GoodNews_RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews_RxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2235C21E237CE2010008C67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2235C220237CE2010008C67B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2235C222237CE2010008C67B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2235C225237CE2010008C67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2235C228237CE2010008C67B /* GoodNews_RxSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoodNews_RxSwift.xcdatamodel; sourceTree = "<group>"; };
 		2235C22A237CE2020008C67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2235C22D237CE2020008C67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2235C22F237CE2020008C67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2235C235237CE6F80008C67B /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		2235C237237CE9910008C67B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				2235C21E237CE2010008C67B /* AppDelegate.swift */,
 				2235C220237CE2010008C67B /* SceneDelegate.swift */,
-				2235C222237CE2010008C67B /* ViewController.swift */,
 				2235C224237CE2010008C67B /* Main.storyboard */,
 				2235C22A237CE2020008C67B /* Assets.xcassets */,
 				2235C22C237CE2020008C67B /* LaunchScreen.storyboard */,
 				2235C22F237CE2020008C67B /* Info.plist */,
 				2235C227237CE2010008C67B /* GoodNews_RxSwift.xcdatamodeld */,
+				2235C235237CE6F80008C67B /* NewsListTableViewController.swift */,
+				2235C237237CE9910008C67B /* Constants.swift */,
 			);
 			path = GoodNews_RxSwift;
 			sourceTree = "<group>";
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2235C223237CE2010008C67B /* ViewController.swift in Sources */,
+				2235C238237CE9910008C67B /* Constants.swift in Sources */,
+				2235C236237CE6F80008C67B /* NewsListTableViewController.swift in Sources */,
 				2235C229237CE2010008C67B /* GoodNews_RxSwift.xcdatamodeld in Sources */,
 				2235C21F237CE2010008C67B /* AppDelegate.swift in Sources */,
 				2235C221237CE2010008C67B /* SceneDelegate.swift in Sources */,
