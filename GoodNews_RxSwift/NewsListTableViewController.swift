@@ -47,4 +47,22 @@ class NewsListTableViewController: UITableViewController{
             
             }).disposed(by: disposeBag)
     }
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.articles.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ArticleListTableViewCell", for: indexPath) as? ArticleListTableViewCell else{
+            fatalError("ArticleListTableViewCell is not exist")
+        }
+        cell.titleLabel?.text = self.articles[indexPath.row].title
+        cell.descriptionLabel?.text = self.articles[indexPath.row].description
+                
+        return cell
+    }
 }
